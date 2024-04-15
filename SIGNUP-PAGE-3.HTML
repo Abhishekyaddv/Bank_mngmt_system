@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM</title>
+    <link rel="stylesheet" href="SIGNUP-PAGE-3.CSS">
+</head>
+
+<body>
+    <div class="container">
+        <h1>APPLICATION FORM NO :</h1>
+        <h2>ACCOUNT DETAILS</h2>
+        <br>
+        <form action="signup1" method="post">
+            <div class="main-input-box">
+                <div class="user-input-box">
+                    <label class="details">ACCOUNT TYPE:</label>
+                    <label for="yes" class="radiobtn1"><input type="radio" id="yes" name="acctype"
+                            value="Savings Account" required>Savings Account</label>
+                    <label for="no" class="radiobtn1"><input type="radio" id="no" name="acctype"
+                            value="Fixed Deposit Account" required>Fixed Deposit Account</label>
+                    <label for="no" class="radiobtn1"><input type="radio" id="no" name="acctype" value="Current Account"
+                            required>Current Account</label>
+                    <label for="no" class="radiobtn1"><input type="radio" id="no" name="acctype"
+                            value="Recurring Deposit Account" required>Recurring Deposit Account</label>
+
+                </div>
+                <div class="user-input-box">
+                    <label class="card-details">CARD NO :</label> <label class="c-no">XXXX-XXXX-XXXX-8765</label>
+                    <br>
+                    <label class="sub-details">(Your 16-Digit Card Number)</label>
+
+
+                </div>
+                <div class="user-input-box">
+                    <label class="pin-details">PIN NO :</label> <label class="p-no">XXXX</label>
+                    <br>
+                    <label class="sub-details">(Your 4-Digit Pin)</label>
+
+                </div>
+                <div class="service-user-input-box">
+                    <label class="service-details">SERVICES REQUIRED</label><br>
+                    <label class="service-label" for="ATM CARD"><input type="checkbox" id="ATM CARD" value="ATM CARD">ATM CARD </label>
+                    <label class="service-label" for="INTERNET BANKING"> <input type="checkbox" id="INTERNET BANKING"
+                            value="INTERNET BANKING">INTERNET BANKING</label>
+                    <label class="service-label" for="INTERNET BANKING"><input type="checkbox" id="MOBILE BANKING"
+                            value="MOBILE BANKING">MOBILE BANKING </label>
+                    <label class="service-label" for="CHEQUE BOOK"><input type="checkbox" id="CHEQUE BOOK"
+                            value="CHEQUE BOOK">CHEQUE BOOK </label>
+                    <label class="service-label" for="EMAIL & SMS ALERT"><input type="checkbox" id="EMAIL & SMS ALERT"
+                            value="EMAIL & SMS ALERT">EMAIL & SMS ALERT </label>
+                    <label class="service-label" for="E-STATEMENT"><input type="checkbox" id="E-STATEMENT"
+                            value="E-STATEMENT">E-STATEMENT </label>
+                </div>
+                
+                <div class="declaration-input-box">
+                    <input type="checkbox" id="decleration" required> <label for="decleration">I HERBY DECLARES THAT THE
+                        ABOVE ENTERED DETAILS ARE CORRECT TO THE BEST OF MY KNOWLEDGE</label>
+                </div>
+
+                <div class="user-input-btn">
+                    <button>NEXT</button>
+                </div>
+            </div>
+        </form>
+        <div class="user-input-btn">
+            <a href=""><button>CANCEL</button></a>
+        </div>
+</body>
+
+</html>
